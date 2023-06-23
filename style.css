@@ -94,6 +94,11 @@
 
 /* ex 9 */
 .ex-9-img {
+  margin: 50px 100px;
+  width: 400px;
+}
+
+.ex-9-img {
   transition: all 2s ease;
 }
 .ex-9-img:hover {
@@ -102,12 +107,19 @@
   border-radius: 25px;
 }
 
-.ex-9-img {
-  margin: 50px 100px;
-  width: 400px;
-}
+/* ex 10 */
 .ex-10-icon {
   font-size: 60px;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(1turn);
+  }
 }
 .ex-11-icon {
   font-size: 60px;
