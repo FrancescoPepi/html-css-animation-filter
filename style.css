@@ -121,9 +121,31 @@
     transform: rotate(1turn);
   }
 }
+
+/* ex 11 */
 .ex-11-icon {
   font-size: 60px;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  /* animation-iteration-count: infinite; */
 }
+
+.ex-11-icon:hover {
+  animation-name: rotate-270deg;
+}
+
+@keyframes rotate-270deg {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
